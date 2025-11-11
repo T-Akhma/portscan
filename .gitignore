@@ -1,0 +1,41 @@
+# --- Go binaries & artifacts ---
+/portscan
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# --- Build dirs ---
+/bin/
+/build/
+/dist/
+
+# --- Go workspace/vendor ---
+vendor/
+/go.work
+go.work.sum
+
+# --- Coverage & profiling ---
+*.cover
+*.coverprofile
+coverage.*
+profile.out
+cpu.out
+mem.out
+
+# --- Logs ---
+*.log
+
+# --- Editors/IDEs ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Misc ---
+.env
