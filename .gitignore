@@ -38,4 +38,4 @@ mem.out
 Thumbs.db
 
 # --- Misc ---
-.env
+.env/ScanPort
